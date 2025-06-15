@@ -24,10 +24,20 @@ const submitForm = () => { // when someone clicks, run the submitForm function w
 // and then setData is just saying that this is the data we are outputing when inputted
 
 
+// Every time the user types something in the input box, read what they typed (e.target.value) and store it in the zipcode variable using setZipcode.
+
+  
+  // e = the event of typing
+
+// e.target = the input box
+
+// e.target.value = what the user typed
 
 
 
-
+  
+// e.target.value - This is the current text inside the input box.
+ // onChange - run this function every time the input value changes.
   // e means EVENT - when you type this event gets triggered
   // e.target.value means whatever is typed into the box
   // setName means it stores the name variable with the new value that is typed
